@@ -200,7 +200,7 @@
 @media(max-width:768px){
   .nav-links{display:none}
   .hamburger{display:flex}
-  .hero{height:clamp(480px,75vh,640px)}
+  .hero{height:58vh}
   .trust-grid{grid-template-columns:1fr;gap:var(--space-6)}
   .modal{grid-template-columns:1fr;max-width:400px}
   .modal-gallery{aspect-ratio:1;border-radius:var(--radius-xl) var(--radius-xl) 0 0}
@@ -208,12 +208,12 @@
 
   /* ── Hero: object-position individual por foto en móvil ───────────────
      Objetivo: la modelo queda a la izquierda, el texto (derecha) no la tapa.
-     Slide 1 (pared blanca, top beige):   modelo pegada a la izquierda → 28% funciona bien
-     Slide 2 (callejón flores, amarillo): modelo al extremo izq → enfoque muy a la izquierda
-     Slide 3 (selfie calle, verde/sage):  modelo algo centrada → desplazar a la izquierda
+     Slide 1 (pared blanca, top beige):   modelo pegada a la izquierda → 30% center funciona bien
+     Slide 2 (callejón flores, amarillo): modelo al extremo izq → 10% center funciona bien
+     Slide 3 (selfie calle, verde/sage):  modelo algo centrada → 15% center funciona bien
   ─────────────────────────────────────────────────────────────────────── */
-  .hero-img-1 { object-position: 15% top; }
-  .hero-img-2 { object-position: 12% top; }
-  .hero-img-3 { object-position: 10% top; }
+  .carousel-slide img.hero-img-1 { object-position: 30% center; }
+  .carousel-slide img.hero-img-2 { object-position: 10% center; }
+  .carousel-slide img.hero-img-3 { object-position: 15% center; }
 }
 @media(max-width:480px){.products-grid{grid-template-columns:repeat(2,1fr);gap:var(--space-4)}.footer-grid{grid-template-columns:1fr}}
