@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["nodejs_20"]
-
-[phases.install]
-cmds = ["npm install -g serve@14"]
-
-[start]
-cmd = "serve . -p ${PORT:-3000} --no-clipboard"
