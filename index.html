@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghyraz Moda — Tops de Algodón Acanalado</title>
+  <meta name="description" content="Tops de algodón 100% acanalado. Estilo casual-elegante para uso diario. Envío a todo el Perú. S/30 cada uno.">
+  <meta name="theme-color" content="#F8F4EC">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ghyraz Moda — Tops de Algodón Acanalado">
+  <meta property="og:description" content="Ropa femenina cómoda y elegante. Tops de algodón acanalado desde S/30.">
+  <meta property="og:image" content="hero/Website_banner_image._A_woman_202606170235.jpeg">
+  <meta property="og:type" content="website">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+<!-- ═══ PROMO BANNER ═══════════════════════════════════════ -->
+<div class="promo-banner" role="banner" aria-label="Promoción">
+  <span>✦</span> Envío gratis en compras mayores a <span>S/ 150</span> &nbsp;·&nbsp; Algodón 100% acanalado <span>✦</span>
+</div>
+
+<!-- ═══ HEADER ══════════════════════════════════════════════ -->
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+
+    <!-- Logo -->
+    <a href="#inicio" class="logo" aria-label="Ghyraz Moda — inicio">
+      <img src="assets/logo.svg" alt="Logo Ghyraz Moda — corazón mariposa">
+      <span class="logo-text">
+        ghyraz moda
+        <small>tops acanalados</small>
+      </span>
+    </a>
+
+    <!-- Nav desktop -->
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Acciones -->
+    <div class="header-actions">
+      <a href="https://bit.ly/ghyraz_moda" class="btn-icon" aria-label="Contactar por WhatsApp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <!-- Carrito -->
+      <button id="cart-icon-btn" class="btn-icon cart-icon" aria-label="Ver carrito">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+        <span class="cart-badge" aria-live="polite">0</span>
+      </button>
+      <!-- Hamburger -->
+      <button id="hamburger-btn" class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile nav -->
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Menú móvil">
+    <a href="#inicio">Inicio</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<!-- ═══ HERO CAROUSEL ═══════════════════════════════════════ -->
+<section id="inicio" class="hero" aria-label="Banner principal Ghyraz Moda">
+
+  <!-- Slide 1: modelo recostada en pared blanca (espacio negativo derecha → texto izquierda) -->
+  <div class="carousel-slide active" aria-hidden="false">
+    <img src="hero/Website_banner_image._A_woman_202606170235.jpeg" alt="Modelo con top acanalado beige apoyada en pared blanca" class="hero-img-1">
+    <div class="slide-overlay"></div>
+  </div>
+
+  <!-- Slide 2: modelo en callejón colorido -->
+  <div class="carousel-slide" aria-hidden="true">
+    <img src="hero/Generate_a_single_high-quality_lifestyle_202606170222.jpeg" alt="Modelo con top acanalado amarillo en callejón con flores" class="hero-img-2">
+    <div class="slide-overlay"></div>
+  </div>
+
+  <!-- Slide 3: modelo tomando selfie -->
+  <div class="carousel-slide" aria-hidden="true">
+    <img src="hero/Generate_a_single_high-quality_lifestyle_202606170229.jpeg" alt="Modelo con top acanalado sage en la calle" class="hero-img-3">
+    <div class="slide-overlay"></div>
+  </div>
+
+  <!-- Texto hero -->
+  <div class="hero-content">
+    <div class="hero-text">
+      <p class="eyebrow">Nueva colección</p>
+      <h1>Tops que te<br><em>hacen sentir</em><br>increíble</h1>
+      <p>Algodón 100% acanalado. Cómodo, suave y con estilo para cada día.</p>
+      <a href="#catalogo" class="btn-primary" id="hero-cta">
+        Ver colección
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- Flechas -->
+  <button class="carousel-arrow prev" aria-label="Imagen anterior">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <button class="carousel-arrow next" aria-label="Siguiente imagen">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+  </button>
+
+  <!-- Dots -->
+  <div class="carousel-controls" role="tablist" aria-label="Diapositivas del carrusel">
+    <button class="carousel-dot active" role="tab" aria-selected="true"  aria-label="Diapositiva 1"></button>
+    <button class="carousel-dot"        role="tab" aria-selected="false" aria-label="Diapositiva 2"></button>
+    <button class="carousel-dot"        role="tab" aria-selected="false" aria-label="Diapositiva 3"></button>
+  </div>
+</section>
+
+<!-- ═══ CATÁLOGO ════════════════════════════════════════════ -->
+<section id="catalogo" class="products-section">
+  <div class="container">
+    <header class="section-header">
+      <span class="tag">Colección</span>
+      <h2>Nuestros tops</h2>
+      <p>10 modelos únicos en algodón acanalado. Todos a S/ 30.</p>
+    </header>
+    <div id="products-grid" class="products-grid" role="list" aria-label="Catálogo de productos"></div>
+  </div>
+</section>
+
+<!-- ═══ NOSOTROS ════════════════════════════════════════════ -->
+<section id="nosotros" class="trust-section" aria-label="Por qué elegirnos">
+  <div class="container">
+    <header class="section-header">
+      <span class="tag">Ghyraz Moda</span>
+      <h2>Por qué nos eligen</h2>
+    </header>
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+            <rect x="1" y="3" width="15" height="13" rx="1"/><path d="M16 8h4l3 5v3h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+          </svg>
+        </div>
+        <h3>Envío rápido</h3>
+        <p>Despacho en 24–48 h a todo el Perú. Gratis en compras desde S/ 150.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/>
+          </svg>
+        </div>
+        <h3>Pago seguro</h3>
+        <p>Yape, Plin o transferencia. Compra con total confianza.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+            <polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+          </svg>
+        </div>
+        <h3>Cambios sin problema</h3>
+        <p>Si la talla no es la indicada, te ayudamos sin complicaciones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+<footer id="contacto" class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Col 1: Logo + Dirección -->
+      <div class="footer-brand">
+        <a href="#inicio" class="logo" aria-label="Ghyraz Moda — inicio">
+          <img src="assets/logo.svg" alt="Logo Ghyraz Moda" class="footer-logo-img">
+          <span class="logo-text" style="color:var(--color-pearl);">
+            ghyraz moda
+            <small style="color:rgba(248,244,236,.45);">tops acanalados</small>
+          </span>
+        </a>
+        <p>Ropa femenina de algodón 100% acanalado. Cómoda, elegante y accesible para tu día a día.</p>
+        <address class="footer-address">
+          <a href="https://maps.google.com/?q=Jr.+Sebastián+Barranca+1556+Galería+Paraíso" target="_blank" rel="noopener" aria-label="Ver dirección en Google Maps">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M12 2C8.686 2 6 4.686 6 8c0 4.418 6 12 6 12s6-7.582 6-12c0-3.314-2.686-6-6-6z"/><circle cx="12" cy="8" r="2"/></svg>
+            <span>CC Galería Paraíso, Jr. Sebastián Barranca 1556, stand SA-08</span>
+          </a>
+        </address>
+      </div>
+
+      <!-- Col 2: Redes sociales -->
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <ul class="footer-social-list">
+          <li>
+            <a href="https://www.instagram.com/ghyraz_moda?igsh=eG8wN3k2NW9oeTk0" target="_blank" rel="noopener" aria-label="Instagram Ghyraz Moda">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@ghyrazmoda" target="_blank" rel="noopener" aria-label="TikTok Ghyraz Moda">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+              TikTok
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/ghyrazmoda?locale=es_LA" target="_blank" rel="noopener" aria-label="Facebook Ghyraz Moda">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              Facebook
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Col 3: Contacto -->
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul class="footer-contact-list">
+          <li>
+            <a href="https://bit.ly/ghyraz_moda" target="_blank" rel="noopener" class="footer-wa-btn" aria-label="Escribir por WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.117 1.534 5.847L.057 23.57a.75.75 0 0 0 .92.919l5.739-1.484A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.718 9.718 0 0 1-4.964-1.363l-.356-.214-3.685.953.982-3.58-.233-.37A9.718 9.718 0 0 1 2.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/></svg>
+              Escribir por WhatsApp
+            </a>
+          </li>
+          <li class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.68 12 19.79 19.79 0 0 1 1.61 3.42 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.55a16 16 0 0 0 6.06 6.06l.92-.92a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+51 940 756 853</span>
+          </li>
+          <li class="footer-contact-item">
+            <a href="mailto:modaghyraz@gmail.com" aria-label="Enviar correo a Ghyraz Moda">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              modaghyraz@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <p class="footer-bottom">© 2025 Ghyraz Moda — Todos los derechos reservados · Hecho con ♡ en Perú</p>
+  </div>
+</footer>
+
+<script src="js/cart.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
