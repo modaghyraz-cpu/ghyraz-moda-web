@@ -2,7 +2,7 @@
 'use strict';
 
 const BASE_URL = 'https://ghyraz-moda-tienda.netlify.app';
-const WA_LINK  = 'https://bit.ly/ghyraz_moda';
+const WA_LINK  = 'https://wa.me/51910120676';
 const PRICE    = 30;
 
 const PRODUCTS = [

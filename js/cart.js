@@ -2,7 +2,7 @@
 'use strict';
 
 const CART_KEY = 'ghyraz_cart';
-const WA_URL   = 'https://bit.ly/ghyraz_moda';
+const WA_URL   = 'https://wa.me/51910120676';
 
 const GhyrazCart = (() => {
 
