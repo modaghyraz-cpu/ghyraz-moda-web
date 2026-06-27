@@ -10,7 +10,7 @@ const PRODUCTS = [
   { id:'marce',    name:'Marce',    imgs:['marce-1.jpeg','marce-2.jpeg','marce-3.jpeg','marce-4.jpeg'] },
   { id:'paola',    name:'Paola',    imgs:['paola-1.jpeg','paola-2.jpeg','paola-3.jpeg'] },
   { id:'princesa', name:'Princesa', imgs:['princesa-1.jpeg','princesa_2.jpeg','princesa-3.jpeg'] },
-  { id:'sofia',    name:'Sofia',    imgs:['sofia-1.jpeg','sofia-2.jpeg'] },
+  { id:'sofia',    name:'Sofia',    imgs:['sofia-1.jpeg','sofia-2.jpeg','sofis-3.jpeg'] },
   { id:'sujey',    name:'Sujey',    imgs:['sujey-1.jpeg','sujey-2.jpeg','sujey-3.jpeg','sujey-4.jpeg'] },
   { id:'vanesa',   name:'Vanesa',   imgs:['vanesa-1.jpeg','vanesa-2.jpeg','vanesa-3.jpeg'] },
 ];
