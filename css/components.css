@@ -241,3 +241,55 @@
   .carousel-arrow{display:none}
 }
 @media(max-width:480px){.products-grid{grid-template-columns:repeat(2,1fr);gap:var(--space-4)}.footer-grid{grid-template-columns:1fr}}
+
+/* WhatsApp Floating Button */
+.btn-whatsapp-float {
+  position: fixed;
+  bottom: var(--space-6);
+  right: var(--space-6);
+  z-index: 95;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  background-color: #25D366;
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  letter-spacing: var(--tracking-wide);
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-full);
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+  text-decoration: none;
+  transition: background-color var(--duration-base) var(--ease-out),
+              transform var(--duration-fast) var(--ease-out),
+              box-shadow var(--duration-base) var(--ease-out);
+}
+
+.btn-whatsapp-float:hover {
+  background-color: #1ebe5d;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+.btn-whatsapp-float svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: currentColor;
+}
+
+@media (max-width: 768px) {
+  .btn-whatsapp-float {
+    bottom: var(--space-4);
+    right: var(--space-4);
+    padding: var(--space-2) var(--space-4);
+    font-size: var(--text-xs);
+  }
+  .btn-whatsapp-float svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
